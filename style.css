@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(120, 168, 207);
+}
+h1{
+    text-align: center
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
