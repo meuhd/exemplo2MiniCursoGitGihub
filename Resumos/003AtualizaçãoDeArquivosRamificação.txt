@@ -1,0 +1,52 @@
+Colinha - Atualizando repositório e Ramificação 
+
+*No arquivo Principal.html insira o seguinte código e salvar : 
+<h1>MeuHD</h1> , salvar
+Na pasta Exemplo2/Git Bash Here 
+git add Principal.html
+git commit -m Versao002
+git push origin master 
+
+*Colocar figura na pasta Exemplo2, renomear para : imagem
+No arquivo Principal.html insira o seguinte código : <img src="imagem.png">, salvar
+git add .
+git commit -m Versao003
+git push origin master
+
+----
+
+*Criar o arquivo no VS style.css no Visual Studio 
+informar no Principa.html o uso do css. Pelo seguinte código :
+   <link rel="stylesheet" href="style.css">
+*No style.css implemente o seguinte código e salve:
+body{
+    			background-color: rgb(120, 168, 207);
+}
+h1{
+    			text-align: center
+}
+img {
+    			display: block;
+    			margin-left: auto;
+    			margin-right: auto;
+}
+---
+
+* Crie uma nova Branch através dos seguintes comandos no Git 
+	git checkout -b NovaBranch
+	git add .
+	git commit -m PrimeiroCommitNovaBranch
+	git push origin NovaBranch
+*Consultar ramificações e histórico de atualização	
+	git config --global alias.graph "log --all --decorate --oneline --graph"
+	git graph
+*Realizar o procedimento de merge através dos comandos abaixo 
+	git checkout 'master'
+	git merge NovaBranch 
+	git push origin Master
+
+	git graph
+*Mudar nome da Branch principal 
+	git branch -m main
+
+

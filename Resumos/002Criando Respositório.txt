@@ -1,0 +1,13 @@
+Criar pasta Exemplo2
+Abrir pasta no Visual Studio
+Criar arquivo Principal.html
+Mudar título do arquivo Principal.html para : Exemplo Git GitHub >> salvar
+Dentro da pasta Exemplo2 , botão direito >> Git Bash Here
+git config --global user.name " "
+git config --global user.email seuemail
+git init 
+git add Principal.html
+git commit -m Versao001
+Cria repositório no site do github . Sua página inicial do github >> Repositories >> New (botão em verde )>> No “repository name” colocar : Exemplo2 >> Create repository  >> Copiar Link: https://github.com...
+git remote add origin (cola link do repositório através da tecla insert)
+git push origin master
