@@ -2,7 +2,7 @@ body{
     background-color: rgb(120, 168, 207); 
 }
 h1{
-    text-align: center
+    text-align: center /*Centraliza texto*/ 
 }
 img {
     display: block;
