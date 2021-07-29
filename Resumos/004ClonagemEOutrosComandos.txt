@@ -1,0 +1,27 @@
+Colinha
+
+**Copiar Link do repositório 
+Página inicial do GitHub / escolhe repositório desejado - no caso o exemplo2/ botão verde - Code / copiar link
+
+**Clonando repositório
+Criar nova pasta, nomear de CopiaExemplo2
+Dentro da pasta - botão direito/ git bash here
+	git clone (cola link que conseguimos no github)
+
+** Atualizando repositório local - Pull-  "Puxando" informações 
+Realiza a atualização desejada no github , depois no git executar os seguintes comandos :
+	cd exemplo2
+	git pull
+      
+
+**fetch 
+Realiza a atualização desejada no github , depois no git executar os seguintes comandos :
+
+	git fetch
+	git checkout origin/main //repositório remoto
+
+Verificar o que foi atualizado e se concordar mescla
+	git checkout main // repositório local
+	git merge origin/main
+
+
