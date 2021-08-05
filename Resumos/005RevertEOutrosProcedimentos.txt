@@ -1,0 +1,35 @@
+**fork
+	Link do repositório do jogo da velha :
+	https://github.com/javascriptacademy-stash/tic-tac-toe
+	Clica em Fork
+	Copia link do repositório para posteriormente clonar 
+
+**Clona o Jogo da velha para sua máquina
+	Cria pasta da área de trabalho chamada Jogo da velha
+	Dentro da pasta /Botão direito - Git Bash Here
+	git clone link do repositório
+	cd tic-tac-toe
+
+** Mudar cor do fundo
+** Commit cor do fundo
+	git add .
+	git commit -m "cor do fundo"
+	git push 
+
+** Mudar cor do título
+** Mudar cor do título - comita 
+	git add .
+	git commit -m "cor do título"
+	git push 
+
+** Consultar o commits
+	git log --oneline
+** Usando revert 
+	git revert (código do commit) 
+	:wq //para voltar tela principal do git 
+	git log --oneline // observer o efeito do revert 
+	cat nomedoarquivo.extensão // detalhe do arquivo
+
+
+
+
