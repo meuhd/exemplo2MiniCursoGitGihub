@@ -1,0 +1,15 @@
+**Pull request 
+	
+        No repositório do projeto que você deseja contribuir . Seleciona o botão Contribute / open pull request / descreve a atualização/ create pull request
+ 
+** Aceitar um pull request 
+	Perfil / repositório desejadado/ Pullrequests / MergePullrequest
+
+** Apagar um repositório
+	No repositório desejado/ Settings / Delete this repository / coloca caminho do repositório/ deleta repositório clicando no botão com escrita em vermelho
+
+
+-----------------
+Documentações
+https://docs.github.com/pt
+https://git-scm.com/doc
